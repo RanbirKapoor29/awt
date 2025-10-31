@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Check Student Result</title>
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+  <nav>
+    <a href="/about">ABOUT</a>
+  </nav>
+
+  <h2>Check Results</h2>
+
+  <form method="POST" action="/submit">
+    <input type="text" name="rno" placeholder="Enter Roll Number" required />
+    <button type="submit">SUBMIT</button>
+  </form>
+
+  <p>Result: <%= result %></p>
+</body>
+</html>
